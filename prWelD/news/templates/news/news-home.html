@@ -1,15 +1,11 @@
 {% extends 'main/layout.html' %}
-{% block title %}{{ title }}{% endblock %}
+{% block title %}Новости на сайте{% endblock %}
 {% block content %}
 <div class="features">
-    <h1>{{ title }}</h1>
+    <h1>Новости на сайте</h1>
     <p>Какой-то текс</p>
     <a href="{% url 'about' %}">
     <button class="btn btn-warning">На страницу про нас</button>
     </a>
-    {% for i in values %}
-    <p>{{ i }}</p>
-    {% endfor %}
 </div>
 {% endblock %}
-
