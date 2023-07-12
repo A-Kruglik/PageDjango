@@ -1,9 +1,15 @@
 {% extends 'main/layout.html' %}
 {% block title %}Главная страница{% endblock %}
 {% block content %}
-<div class="features">
+<div class="contact-opis">
     <h1>Контакты</h1>
-    <p>Какой-то текс опять</p>
-    <button class="btn btn-warning">тык 2</button>
+    <p>
+    <a href="https://github.com/A-Kruglik"><i class="fa-brands fa-github"></i> Github</a><br>
+    <a href="https://t.me/A_Kruglik"><i class="fa-brands fa-telegram"></i> Telegram</a> <br>
+    <i class="fa-sharp fa-regular fa-envelope"></i> aleksandr.v.kruglik@gmail.com
+    </p>
+    <a href="{% url 'home' %}">
+    <button type="button" class="btn btn-outline-warning">На главную</button>
+    </a>
 </div>
 {% endblock %}

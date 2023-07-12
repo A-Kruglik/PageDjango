@@ -57,14 +57,64 @@ main .features {
     margin-top: 300px;
     text-align: center;
     width: 80%;
+    font-family: 'Patrick Hand', cursive;
 }
 
 main .features h1 {font-size: 50px;}
-main .features p {max-width: 300px; margin: 10px auto}
+main .features p {max-width: 300px; margin: 10px auto;}
 main .features button {font-size: 15px;
                        margin: 20px auto;
-                       font-family: 'Patrick Hand', cursive;
-                       ; }
+                       font-family: 'Patrick Hand', cursive;}
+
+main .about-opis {
+    float: left;
+    color: #fff;
+    margin-top: 100px;
+    text-align: center;
+    width: 80%;
+    font-family: 'Patrick Hand', cursive;
+}
+
+main .about-opis p {
+    text-align: left;
+    margin-left: 600px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+main .contact-opis {
+    float: left;
+    color: #fff;
+    margin-top: 300px;
+    text-align: center;
+    width: 80%;
+    font-family: 'Patrick Hand', cursive;
+}
+
+main .contact-opis h1 {
+    margin-bottom: 30px;
+}
+
+main .contact-opis p {
+    text-align: left;
+    margin-left: 600px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+main .contact-opis a {
+    color: #fff;
+
+}
+
+main .contact-opis a:hover {
+    color: #eb5959;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
+
+
 
 
 
